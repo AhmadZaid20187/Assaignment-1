@@ -13,13 +13,23 @@
 
 .btn{
     padding: 13px 16px;
-    background-color: #469165;
+    /* background-color: #469165; */
     border: none;
     color: white;
     border-radius: 4px;
+    cursor: pointer;
 }
 
-header{
+.primary{
+    background-color: #469165;
+}
+
+.secondary{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+header nav{
     padding: 16px;
 }
 
@@ -31,6 +41,7 @@ header nav{
     max-width: 1600px;
     width: 85%;
     margin: 0 auto;
+    margin-bottom: 16px;
 }
 
 /* Logo */
@@ -44,6 +55,7 @@ header nav .menu{
     display: flex;
     justify-content: space-between;
     max-width: 875px;
+    align-items: center;
     width: 100%;
 }
 
@@ -60,4 +72,61 @@ header nav .menu li{
 header nav .menu li a{
     text-decoration: none;
     color: #000000;
+}
+
+#bannar{
+    background-image: url(./assets/hero-bg.png);
+    /* background-position: center; */
+    background-size: cover;
+    height: 674px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#bannar .bannar-content{
+    align-items: center;
+    /* justify-content: center; */
+    padding: 115px 120px 179px 120px;
+}
+
+#bannar .bannar-content #early-access p{
+    font-size: 16px;
+    color: #469165;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 100px;
+    margin-bottom: 16px;
+    /* max-width: 230px; */
+}
+
+#bannar .bannar-content #early-access{
+    display: inline-block;
+    /* padding: 8px 12px; */
+}
+
+#bannar .bannar-content .bannar-heading h2{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    color: white;
+}
+
+#bannar .bannar-content .bannar-heading h2 span{
+    color: #30B868;
+}
+
+#bannar .bannar-content .bannar-heading p{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+
+#bannar .bannar-content #button-section{
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
