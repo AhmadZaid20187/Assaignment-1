@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shered Style */
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    padding: 13px 16px;
+    background-color: #469165;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+header{
+    padding: 16px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: center;
+    max-width: 1600px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Logo */
+
+header nav .logo img{
+    width: 140px;
+    height: 60px;
+}
+
+header nav .menu{
+    display: flex;
+    justify-content: space-between;
+    max-width: 875px;
+    width: 100%;
+}
+
+header nav .menu ul{
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+header nav .menu li{
+    list-style: none;
+}
+
+header nav .menu li a{
+    text-decoration: none;
+    color: #000000;
+}
