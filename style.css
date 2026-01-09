@@ -133,6 +133,9 @@ header nav .menu li a{
 
 #second-main{
     padding-top: 66px;
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
 }
 
 #second-main #second-heading{
@@ -184,4 +187,61 @@ header nav .menu li a{
     border-radius: 8px;
     max-height: 322px;
     max-width: 300px;
+}
+
+/* Third Main Section  */
+#third-main{
+    padding-top: 120px;
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+}
+
+#third-main img .main-image{
+    height: 600px;
+    width: 600px;
+}
+
+#third-main .third-main{
+    padding: 102px 0;
+}
+
+#third-main .third-main #ts{
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+}
+
+#third-main .third-main h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding: 16px 0;
+}
+
+#third-main .third-main p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+#third-main .third-main #check-list-item{
+    padding-top: 40px;
+}
+
+/* #third-main .third-main .check-image{
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+} */
+
+#third-main .third-main .check-list{
+    display: inline-block;
+    line-height: 20px;
+    color: black;
+    /* max-width: 382px; */
+    padding: 16px 0;
+    align-items: center;
 }
