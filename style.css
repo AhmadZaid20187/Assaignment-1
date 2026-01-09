@@ -245,3 +245,49 @@ header nav .menu li a{
     padding: 16px 0;
     align-items: center;
 }
+
+/* Fourth Main Section  */
+
+#fourth-main{
+    padding-top: 120px;
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+}
+
+#fourth-main .fourth-main-content{
+    padding-bottom: 80px;
+}
+
+#fourth-main h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    padding: 16px 0;
+}
+
+#fourth-main p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+
+.center{
+    padding-top: 16px;
+}
+
+#fourth-main button{
+    margin-top: 24px;
+}
+
+#fourth-main ul{
+    padding-top: 16px;
+    /* display: inline; */
+    /* text-align: center; */
+}
+
+#fourth-main ul li{
+    /* display: flex; */
+}
