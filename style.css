@@ -130,3 +130,58 @@ header nav .menu li a{
     justify-content: center;
     flex-wrap: wrap;
 }
+
+#second-main{
+    padding-top: 66px;
+}
+
+#second-main #second-heading{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 44px;
+    text-align: center;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+#second-main #second-heading-p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#second-main .card-menu{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 44px;
+    flex-wrap: wrap;
+}
+
+#second-main .card-menu .card img{
+    background-color: #F95555;
+    padding: 14px;
+    border-radius: 100%;
+}
+
+#second-main .card-menu .card h2{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px 0;
+    color: #001931;
+}
+
+#second-main .card-menu .card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+#second-main .card-menu .card{
+    text-align: center;
+    padding: 24px;
+    box-shadow: 0 0 3px #0000001A;
+    border-radius: 8px;
+    max-height: 322px;
+    max-width: 300px;
+}
