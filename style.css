@@ -12,8 +12,12 @@
 }
 
 .btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
     padding: 13px 16px;
-    /* background-color: #469165; */
+    font-size: 16px;
     border: none;
     color: white;
     border-radius: 4px;
@@ -23,6 +27,16 @@
 .primary{
     background-color: #469165;
 }
+
+.btn:hover{
+    border: 1px solid #469165;
+    background-color: white;
+    color: #469165;
+}
+
+/* .btn img:hover{
+    background-color: #469165;
+}  */
 
 .secondary{
     background-color: transparent;
@@ -76,7 +90,6 @@ header nav .menu li a{
 
 #bannar{
     background-image: url(./assets/hero-bg.png);
-    /* background-position: center; */
     background-size: cover;
     height: 674px;
     display: flex;
@@ -87,7 +100,6 @@ header nav .menu li a{
 
 #bannar .bannar-content{
     align-items: center;
-    /* justify-content: center; */
     padding: 115px 120px 179px 120px;
 }
 
@@ -98,12 +110,10 @@ header nav .menu li a{
     padding: 8px 12px;
     border-radius: 100px;
     margin-bottom: 16px;
-    /* max-width: 230px; */
 }
 
 #bannar .bannar-content #early-access{
     display: inline-block;
-    /* padding: 8px 12px; */
 }
 
 #bannar .bannar-content .bannar-heading h2{
@@ -231,17 +241,10 @@ header nav .menu li a{
     padding-top: 40px;
 }
 
-/* #third-main .third-main .check-image{
-    height: 20px;
-    width: 20px;
-    padding: 2px;
-} */
-
 #third-main .third-main .check-list{
     display: inline-block;
     line-height: 20px;
     color: black;
-    /* max-width: 382px; */
     padding: 16px 0;
     align-items: center;
 }
@@ -253,12 +256,15 @@ header nav .menu li a{
     max-width: 1360px;
     width: 85%;
     margin: 0 auto;
+    margin-top: 120px;
     text-align: center;
     background-color: #F7F6F2;
 }
 
 #fourth-main .fourth-main-content{
     padding-bottom: 80px;
+    /* margin-top: 120px; */
+    text-align: center;
 }
 
 #fourth-main h2{
@@ -280,14 +286,66 @@ header nav .menu li a{
 
 #fourth-main button{
     margin-top: 24px;
+    /* justify-content: center; */ 
+    text-align: center;
 }
 
 #fourth-main ul{
     padding-top: 16px;
-    /* display: inline; */
-    /* text-align: center; */
 }
 
-#fourth-main ul li{
+
+/* Footer Section */
+
+#footer{
+    background-color: #001931;
     /* display: flex; */
+    /* max-width: 1360px; */
+    /* width: 85%; */
+    margin-top: 120px;
 }
+
+#footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-top: 120px;
+    width: 85%;
+}
+
+#footer .footer-content .social{
+    display: flex;
+
+}
+
+#footer .footer-content .social p{
+    color: white;
+
+}
+
+#footer .footer-content .social .social-image{
+    height: 20px;
+    width: 20px;
+    padding: 4px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+#footer hr{
+    max-width: 1360px;
+    margin: 0px auto;
+    margin-top: 80px;
+    color: rgba(229, 231, 235, 1);
+    /* padding-top: 80px; */
+}
+
+#footer .copy-right p{
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* .footr-hr{
+    padding-top: 80px;
+} */
